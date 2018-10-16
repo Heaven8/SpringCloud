@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-config-4433" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-config-client-5533" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-eureka-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-zuul-gateway-9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloudeureka7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloudeureka7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservisecloud-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservisecloud-consumer-dept-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservisecloud-consumer-dept-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservisecloud-provider-dept-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservisecloud-provider-dept-8001-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservisecloudproviderdept8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservisecloudproviderdept8003" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.zhanghf</groupId>
-  <artifactId>microservisecloud</artifactId>
+  <artifactId>microservicecloud</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>microservisecloud</name>
+  <name>microservicecloud</name>
 
 
   <properties>
@@ -81,9 +81,12 @@
     <module>microservisecloudproviderdept8002</module>
     <module>microservisecloudproviderdept8003</module>
     <module>microservisecloud-consumer-dept-feign</module>
-      <module>microservisecloud-provider-dept-8001-hystrix</module>
-      <module>microservicecloud-consumer-hystrix-dashboard</module>
-    <module>microservicecloudzuulgateway9527</module>
+    <module>microservisecloud-provider-dept-8001-hystrix</module>
+    <module>microservicecloud-consumer-hystrix-dashboard</module>
+    <module>microservicecloud-zuul-gateway-9527</module>
+    <module>microservicecloud-config-4433</module>
+    <module>microservicecloud-config-client-5533</module>
+
   </modules>
 
   <build>

@@ -15,12 +15,12 @@ eureka:
  
  
 zuul: 
-#  ignored-services: microservicecloud-dept
-#  prefix: /atguigu
-#  ignored-services: "*"
+#  ignored-services: microservicecloud-dept  #忽略microservicecloud-dept这个服务名，即用http://gateway-9527.com:9527/microservicecloud-dept/dept/get/2访问无效
+#  prefix: /atguigu #前缀
+#  ignored-services: "*" #忽略所有的服务名
   routes: 
-    mydept.serviceId: microservicecloud-dept
-    mydept.path: /mydept/**
+    mydept.serviceId: microservicecloud-dept   #映射到的服务名
+    mydept.path: /mydept/**  #可以用mydept替代microservicecloud-dept，即通过http://gateway-9527.com:9527/microservicecloud-dept/dept/get/2和http://gateway-9527.com:9527/mydept/dept/get/2同等
  
 info:
   app.name: atguigu-microcloud
