@@ -1,0 +1,13 @@
+server:
+  port: 4433
+
+spring:
+  application:
+    name: microservisecloudConfig
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:Heaven8/microservisecloudConfig.git  #GitHub上面的git仓库名字
+
+
