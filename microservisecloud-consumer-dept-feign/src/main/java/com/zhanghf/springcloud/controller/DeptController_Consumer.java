@@ -30,11 +30,9 @@ public class DeptController_Consumer {
         return deptClientService.get(id);
     }
 
-    @SuppressWarnings("unchecked")
     @RequestMapping(value = "/consumer/dept/list")
     public List<Dept> list()
     {
         return deptClientService.list();
     }
-
 }
