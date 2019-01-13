@@ -8,10 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-public class ConfigClient_5533_StartSpringCloudApp
-{
-    public static void main( String[] args )
-    {
+public class ConfigClient_5533_StartSpringCloudApp {
+    public static void main( String[] args ) {
         SpringApplication.run(ConfigClient_5533_StartSpringCloudApp.class,args);
     }
 }

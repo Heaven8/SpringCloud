@@ -1,7 +1,5 @@
 package com.zhanghf.springcloud.config;
 
-import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.RandomRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -29,8 +27,8 @@ public class Myconfig {
     BestAvailableRule 会先过滤掉由于多次访问故障二处于断路器跳闸状态的服务，然后选择一个并发量最小的服务
     ZoneAvoidanceRule 默认规则，复合判断server所在的区域的性能和server的可用性选择服务器*/
     //用法：直接返回IRule对象，里面直接返回7中相应的轮训对象即可
-    @Bean
+   /* @Bean
     public IRule myRule(){
         return new RandomRule();// 随机
-    }
+    }*/
 }

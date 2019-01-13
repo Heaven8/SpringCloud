@@ -2,6 +2,8 @@ server:
   port: 7001
 
 eureka:
+#  server:
+#    enable-self-preservation: false   //禁止自我保护
   instance:
     hostname: eureka7001.com #eureka服务端的实例名称
   client:
